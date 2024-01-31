@@ -1,0 +1,30 @@
+/* AdminNavBar.css */
+
+.admin-navbar-container {
+    background-color: #7fc7c6; /* Adjust the background color as needed */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .admin-navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .admin-navbar-list-item {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .admin-navbar-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .admin-navbar-link:hover {
+    color: #ffcc00; /* Adjust the hover color as needed */
+  }
+  
