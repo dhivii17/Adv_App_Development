@@ -1,0 +1,52 @@
+/* src/HomePage.css */
+.homepage {
+    background-image: url('https://kevinleeweddings.com/wp-content/uploads/2016/08/cover-9.jpg?gid=4'); 
+    opacity: 0.9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  .homepage-container {
+    text-align: center;
+    margin: 20px;
+    color: white; /* Set text color to white or a color that contrasts with your background */
+  }
+  
+  .homepage-title {
+    color: #0f1111;
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .homepage-part-title {
+    color: #040101;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  .homepage-subtitle {
+    text-align: center;
+    color: #130303;
+    font-size: 1.2em;
+    margin-top: 30px;
+  }
+  
+  .explore-button {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: auto;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .explore-button:hover {
+    background-color: #555555;
+  }
+  
