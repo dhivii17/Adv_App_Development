@@ -1,0 +1,75 @@
+/* src/News.css */
+
+.news-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.news-heading {
+    color: #333;
+    font-size: 2em;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+}
+
+.news-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-header {
+    display: flex;
+    align-items: center;
+}
+
+.news-image {
+    width: 60%;
+    max-height: 330px; /* Adjust the maximum height as needed */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.news-details {
+    flex: 1;
+}
+
+.news-title {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.news-event-name {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.news-content {
+    margin-bottom: 12px;
+    color: #555;
+}
+
+.news-date {
+    color: #777;
+    font-size: 14px;
+}
+
+.view-details-button {
+    height: 30px;
+    width: 130px;
+    background-color: rgb(171, 239, 239);
+    /* Add any additional styles for the button */
+}

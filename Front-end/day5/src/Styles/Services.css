@@ -1,0 +1,45 @@
+/* src/Services.css */
+.services-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.services-title {
+  color: #333;
+  font-size: 2em;
+}
+
+.service {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.service-image {
+  width: 60%;
+  max-height: 330px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.service h2 {
+  color: #333;
+}
+
+.service p {
+  color: #666;
+}
+
+.view-details-button {
+  height: 30px;
+  width: 130px;
+  background-color: rgb(171, 239, 239);
+}
+
+/* Reduced width for the search input */
+.search-bar {
+  width: 200px; /* Adjust the width as needed */
+}
